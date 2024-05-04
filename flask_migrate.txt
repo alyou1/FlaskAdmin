@@ -1,0 +1,3 @@
+flask db init : crée un dossier miggrations si il n'existe pas 
+flask migrate -m "initial migration"
+flask upgrade
